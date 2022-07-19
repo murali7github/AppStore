@@ -1,0 +1,80 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  background-size: cover;
+  height: 100vh;
+  padding-top: 40px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-bottom: 15px;
+  overflow: auto;
+}
+@media (max-width: 768px) {
+  .bg-container {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+  }
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-family: 'Bree Serif';
+  font-size: 40px;
+  font-weight: 600;
+  color: #1e293b;
+}
+.search-container {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #7b8794;
+  background-color: transparent;
+  height: 30px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+}
+.search-bar {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: 'Bree Serif';
+}
+@media (min-width: 768px) {
+  .search-bar {
+    width: 380px;
+  }
+}
+.search-icon {
+  height: 20px;
+  width: 20px;
+}
+.list-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0px;
+  margin-bottom: 0px;
+}
+.app-list-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0px;
+  flex-wrap: wrap;
+  margin-top: 0px;
+}

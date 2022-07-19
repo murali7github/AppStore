@@ -1,0 +1,18 @@
+/* Write your CSS here */
+.list-item {
+  margin-right: 25px;
+}
+.button {
+  font-family: 'Bree Serif';
+  font-size: 16px;
+  font-weight: 500;
+  color: #7b8794;
+  border-width: 0px;
+  background-color: transparent;
+}
+.tab-btn-item {
+  text-decoration-color: #2563eb;
+  text-decoration: underline;
+  color: #2563eb;
+  font-size: 18px;
+}
